@@ -1,0 +1,44 @@
+/*seletor*/
+*{
+    margin: 0;
+
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #F3DEBA;
+    box-shadow: 2px 2px 5px black;
+
+}
+ul{
+    color: #675D50;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+a{
+    margin: 20px;
+    
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+a:hover{
+    
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px black;
+    
+}
+
+li{
+    color: #675D50;
+    list-style: outside;
+}
+
